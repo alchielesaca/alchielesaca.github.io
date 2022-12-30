@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+h1, h2, h3 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.about-pic {
+  height: 75vh;
+}
+
+.absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.socials {
+  display: flex;
+}
+.socials i {
+  font-size: 2rem;
+  color: black;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

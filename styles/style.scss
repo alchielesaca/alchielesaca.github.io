@@ -1,0 +1,40 @@
+// Alchie Lesaca - by: gesty 🏄
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+// Colors:
+$gray: #737b8c;
+
+body {
+  //background-image: linear-gradient(to right, $gray, silver);
+  height: 100%;
+}
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.about-pic {
+  height: 75vh;
+}
+
+.absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.socials {
+  display: flex;
+
+  i {
+    font-size: 2rem;
+    color: black;
+    padding: 10px;
+  }
+}
