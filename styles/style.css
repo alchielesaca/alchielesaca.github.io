@@ -33,4 +33,10 @@ h1, h2, h3 {
   padding: 10px;
 }
 
+@media (max-width: 768px) {
+  .carousel-item {
+    width: 95vw;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -38,3 +38,10 @@ h1, h2, h3 {
     padding: 10px;
   }
 }
+
+// 768px = Bootstrap "Medium" breakpoint
+@media (max-width: 768px) {
+  .carousel-item {
+    width: 95vw;
+  }
+}
