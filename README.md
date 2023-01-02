@@ -1,4 +1,4 @@
 # alchielesaca.github.io
-by: gesty 🏄
+by: [gesty 🏄](https://gesty.dev)
 
-[Live Site Link 🌐](https://alchielesaca.github.io)
+[Live Site Link 🌐](https://alchielesaca.com)
