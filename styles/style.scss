@@ -33,9 +33,14 @@ h1, h2, h3 {
   display: flex;
 
   i {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: black;
     padding: 10px;
+
+  }
+
+  :hover {
+    color: gray;
   }
 }
 

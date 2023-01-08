@@ -28,9 +28,12 @@ h1, h2, h3 {
   display: flex;
 }
 .socials i {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: black;
   padding: 10px;
+}
+.socials :hover {
+  color: gray;
 }
 
 @media (max-width: 768px) {
