@@ -24,6 +24,14 @@ h1, h2, h3 {
   transform: translate(-50%, -50%);
 }
 
+.card-body > p {
+  font-size: 1.3rem;
+}
+
+.interests {
+  font-size: 2rem !important;
+}
+
 .socials {
   display: flex;
 }
