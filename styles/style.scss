@@ -6,8 +6,31 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+// Colors
+$dark-gray: #212529;
+
 body {
   height: 100%;
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  ::-webkit-scrollbar-track {
+    background: $dark-gray;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 0.5rem;
+  }
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: $dark-gray;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 0.5rem;
+  }
 }
 
 h1, h2, h3 {

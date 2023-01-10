@@ -8,6 +8,26 @@
 body {
   height: 100%;
 }
+body ::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body ::-webkit-scrollbar-track {
+  background: #212529;
+}
+body ::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 0.5rem;
+}
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  background: #212529;
+}
+body::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 0.5rem;
+}
 
 h1, h2, h3 {
   font-family: "Bebas Neue", cursive;
