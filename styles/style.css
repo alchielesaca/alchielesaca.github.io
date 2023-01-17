@@ -222,10 +222,43 @@ h1, h2, h3 {
   justify-content: center;
   text-decoration: none;
 }
-
 .close::after {
   content: "X";
   color: white;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+  text-decoration: none;
+  height: 50em;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prev::after {
+  content: "<";
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  height: 50em;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next::after {
+  content: ">";
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px #000;
 }
 
 @media (max-width: 768px) {
@@ -251,6 +284,16 @@ h1, h2, h3 {
   .lightboxImage {
     width: 100vw;
     height: auto;
+  }
+  .prev {
+    width: 5em;
+    height: 5em;
+    bottom: 0;
+  }
+  .next {
+    width: 5em;
+    height: 5em;
+    bottom: 0;
   }
 }
 
